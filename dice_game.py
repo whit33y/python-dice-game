@@ -11,6 +11,7 @@ while True:
         want_next = False
         while want_next == False:
             next_game = input('Type (n) for new game or (e) to exit\n')
+            next_game = next_game.lower()
             if next_game == 'n':
                 want_next=True
                 continue
